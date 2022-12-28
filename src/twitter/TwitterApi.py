@@ -28,5 +28,3 @@ class TwitterApi:
     if response:
       return response
 
-
-      

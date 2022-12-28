@@ -9,6 +9,7 @@ packages = [{include = "src"}]
 
 [tool.poetry.scripts]
 tw = "main:tw_main"
+bin = "main:bin_main"
 
 
 [tool.poetry.dependencies]
