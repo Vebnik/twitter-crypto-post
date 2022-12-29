@@ -20,7 +20,6 @@ class Bot:
     self._create_api_instance()
     self._start_main_loop()
 
-    
   def _start_main_loop(self) -> None:
 
     while True:
@@ -60,4 +59,3 @@ class Bot:
   def _check_auth_env(self) -> bool:
     self.env = Env()
     return all(self.env.get_env())
-
