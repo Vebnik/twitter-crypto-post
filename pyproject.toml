@@ -11,6 +11,7 @@ packages = [{include = "src"}]
 tw = "main:tw_main"
 bin = "main:bin_main"
 mongo = "main:mongo_main"
+bot = "main:bot_main"
 
 
 [tool.poetry.dependencies]
