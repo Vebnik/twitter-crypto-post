@@ -10,12 +10,14 @@ packages = [{include = "src"}]
 [tool.poetry.scripts]
 tw = "main:tw_main"
 bin = "main:bin_main"
+mongo = "main:mongo_main"
 
 
 [tool.poetry.dependencies]
 python = "^3.11"
 python-dotenv = "^0.21.0"
 requests = "^2.28.1"
+pymongo = "^4.3.3"
 
 
 [tool.poetry.group.dev.dependencies]
